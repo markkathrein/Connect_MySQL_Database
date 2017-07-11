@@ -5,17 +5,12 @@ import java.sql.DriverManager;
 
 
 
-/**
- * 
- * @author mark kat
- */
+
 
 public class MySQLConnect {
 
     private Connection con;
 
-   
-    
     public MySQLConnect() {
 
     }
@@ -38,12 +33,10 @@ public class MySQLConnect {
         }
 
     }
-
     
     
     
-    
-    public Connection getCon() {
+    public Connection getConnect() {
         return con;
     }
 
@@ -51,7 +44,4 @@ public class MySQLConnect {
         this.con = con;
     }
 
-    
-    
-    
 }

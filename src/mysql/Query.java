@@ -25,6 +25,9 @@ public class Query {
     
     
     
+    
+    
+    
     public void showAll(String nameOfColumn, String nameOfTable) throws SQLException {
 
         if (nameOfColumn == "") {
@@ -89,6 +92,8 @@ public class Query {
         }
 
     }
+    
+    
     
     
     
