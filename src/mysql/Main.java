@@ -19,13 +19,11 @@ public class Main {
         
         if (connection.connectToMysql("localhost", "db_test", "root", "")) {
 
-            Query q = new Query(connection.getConnect());
-
             /**
              * @para - SpaltenNname -> default "*"
              * @para - TabelenName 
              */
-            q.showAll("", "tbl_kunde");
+            connection.showAll("", "tbl_kunde");
 
            
         } 
