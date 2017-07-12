@@ -23,7 +23,7 @@ public class Main {
              * @para - SpaltenNname -> default "*"
              * @para - TabelenName 
              */
-            connection.showAll("", "tbl_kunde");
+            connection.showAll("", "tbl_person");
 
            
         } 
